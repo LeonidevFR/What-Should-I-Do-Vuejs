@@ -3,6 +3,7 @@ import App from './App.vue'
 import axios from 'axios'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
+import '@/assets/scss/global.scss'
 
 Vue.prototype.$http = axios
 Vue.use(Buefy)
